@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana Integrada</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5; 
+      color: #111; 
+    }
+
+    header {
+      background-color: #fff;
+      height: 80px;
+      width: 100%;
+      border-bottom: 2px solid #373232;
+      display: flex;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999;
+    }
+
+    .spam {
+      font-size: 16px;
+      font-weight: 700;
+      margin-left: 160px;
+      color: #111;
+    }
+
+    .section1 {
+      background-color: #afaaaa; 
+      padding: 120px 160px 60px;
+      border-bottom: 2px solid #211f1f;
+      margin-top: 80px; 
+      color: #111;
+    }
+
+    .imersao {
+      font-size: 42px;
+      font-weight: 700;
+    }
+
+    .periodo {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    
+    .section2 {
+      background-color: #f0f0f0;
+      padding: 80px 0;
+    }
+
+    .tabela-eventos {
+      width: 80%;
+      margin: auto;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 30px;
+      color: #111;
+    }
+
+    .section2h2 {
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: #111;
+    }
+
+    .linha {
+      display: grid;
+      grid-template-columns: 12% 40% 20% 15% 13%;
+      padding: 18px 10px;
+      border-bottom: 1px solid #ddd;
+      align-items: center;
+    }
+
+  
+
+    .tag {
+      border: 1px solid #888;
+      padding: 1px 1px;
+      border-radius: 14px;
+      text-align: center;
+      width: 90px;
+      color: #111;
+      background-color: #e0e0e0;
+    }
+
+    .btn {
+      background: transparent;
+      border: 1px solid #888;
+      border-radius: 20px;
+      padding: 6px 14px;
+      
+      color: #111;
+      font-size: 13px;
+      
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .blocoPalestrantes {
+      background-color:#afaaaa ;
+      padding: 80px 0;
+      border-top: 2px solid #ccc;
+    }
+
+    .palestrantes {
+      font-size: 40px;
+      font-weight: 700;
+      margin-left: 160px;
+      color: #111;
+    }
+  </style>
+
+</head>
+<body>
+
+<header>
+  <span class="spam">Semana Integrada de Tecnologia</span>
+</header>
+
+<div class="section1">
+  <h1 class="imersao">Imersão em inovação, código e criatividade</h1>
+  <p class="periodo">Período: 10–14 de março de 2025 • Local: Palmas/TO • Modalidade: Híbrida</p>
+</div>
+
+<section class="section2">
+  <div class="tabela-eventos">
+
+    <h2 class="section2h2">Programação</h2>
+
+    <div class="linha header">
+      <span>Data</span>
+      <span>Evento</span>
+      <span>Horário</span>
+      <span>Trilha</span>
+      <span>Ações</span>
+    </div>
+
+    <div class="linha">
+      <span>10/03</span>
+      <span>Abertura e Keynote — Futuro da IA</span>
+      <span>19:00–21:00</span>
+      <span class="tag">IA</span>
+      <div>
+        <button class="btn">Detalhes</button>
+        <button class="btn secondary">Google Calendar</button>
+      </div>
+    </div>
+
+    <div class="linha">
+      <span>11/03</span>
+      <span>Workshop — DevOps na Prática</span>
+      <span>14:00–17:30</span>
+      <span class="tag">Cloud</span>
+      <div>
+        <button class="btn">Detalhes</button>
+        <button class="btn secondary">Google Calendar</button>
+      </div>
+    </div>
+
+    <div class="linha">
+      <span>12/03</span>
+      <span>Mesa redonda — Tecnologias e Aprendizagem</span>
+      <span>09:00–12:00</span>
+      <span class="tag">Edu & UX</span>
+      <div>
+        <button class="btn">Detalhes</button>
+        <button class="btn secondary">Google Calendar</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="blocoPalestrantes">
+  <h2 class="palestrantes">Palestrantes</h2>
+</section>
+
+</body>
+</html>
